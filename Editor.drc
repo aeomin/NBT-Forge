@@ -14,10 +14,10 @@
 #define pnglang_EPNGOutMemoryText 65171
 #define pnglang_EPNGHeaderNotPresentText 65172
 #define pnglang_EInvalidNewSize 65173
-#define RzTabs_sRzSavingDCError 65184
-#define RzTabs_sRzCreateRegionError 65185
-#define RzTabs_sRzPageIndexOutOfRange 65186
-#define RzTabs_sRzInvalidVisibilityChange 65187
+#define RzBorder_sRzColorMenuBar 65184
+#define RzBorder_sRzDefaultColorCaption 65185
+#define RzBorder_sRzNoColorCaption 65186
+#define RzBorder_sRzCustomColorCaption 65187
 #define pnglang_EPngInvalidCRCText 65188
 #define pnglang_EPNGInvalidIHDRText 65189
 #define pnglang_EPNGMissingMultipleIDATText 65190
@@ -30,86 +30,86 @@
 #define pnglang_EPNGUnknownCriticalChunkText 65197
 #define pnglang_EPNGUnknownCompressionText 65198
 #define pnglang_EPNGUnknownInterlaceText 65199
-#define RzBorder_sRzColorInactiveCaptionText 65200
-#define RzBorder_sRzColorBtnHighlight 65201
-#define RzBorder_sRzColor3DDkShadow 65202
-#define RzBorder_sRzColor3DLight 65203
-#define RzBorder_sRzColorInfoText 65204
-#define RzBorder_sRzColorInfoBk 65205
-#define RzBorder_sRzColorHotLight 65206
-#define RzBorder_sRzColorGradientActiveCaption 65207
-#define RzBorder_sRzColorGradientInactiveCaption 65208
-#define RzBorder_sRzColorMenuHighlight 65209
-#define RzBorder_sRzColorMenuBar 65210
-#define RzBorder_sRzDefaultColorCaption 65211
-#define RzBorder_sRzNoColorCaption 65212
-#define RzBorder_sRzCustomColorCaption 65213
-#define RzTabs_sRzIncorrectNumberOfPoints 65214
-#define RzTabs_sRzTabRegionCapacityError 65215
-#define RzBorder_sRzColorInactiveCaption 65216
-#define RzBorder_sRzColorMenu 65217
-#define RzBorder_sRzColorWindow 65218
-#define RzBorder_sRzColorWindowFrame 65219
-#define RzBorder_sRzColorMenuText 65220
-#define RzBorder_sRzColorWindowText 65221
-#define RzBorder_sRzColorCaptionText 65222
-#define RzBorder_sRzColorActiveBorder 65223
-#define RzBorder_sRzColorInactiveBorder 65224
-#define RzBorder_sRzColorAppWorkSpace 65225
-#define RzBorder_sRzColorHighlight 65226
-#define RzBorder_sRzColorHighlightText 65227
-#define RzBorder_sRzColorBtnFace 65228
-#define RzBorder_sRzColorBtnShadow 65229
-#define RzBorder_sRzColorGrayText 65230
-#define RzBorder_sRzColorBtnText 65231
-#define RzBorder_sRzColorBrightGreen 65232
-#define RzBorder_sRzColorTurquoise 65233
-#define RzBorder_sRzColorSkyBlue 65234
-#define RzBorder_sRzColorPlum 65235
-#define RzBorder_sRzColorGray25 65236
-#define RzBorder_sRzColorRose 65237
-#define RzBorder_sRzColorTan 65238
-#define RzBorder_sRzColorLightYellow 65239
-#define RzBorder_sRzColorLightGreen 65240
-#define RzBorder_sRzColorLightTurquoise 65241
-#define RzBorder_sRzColorPaleBlue 65242
-#define RzBorder_sRzColorLavender 65243
-#define RzBorder_sRzColorWhite 65244
-#define RzBorder_sRzColorScrollBar 65245
-#define RzBorder_sRzColorBackground 65246
-#define RzBorder_sRzColorActiveCaption 65247
-#define RzBorder_sRzColorGreen 65248
-#define RzBorder_sRzColorTeal 65249
-#define RzBorder_sRzColorBlue 65250
-#define RzBorder_sRzColorBlueGray 65251
-#define RzBorder_sRzColorGray50 65252
-#define RzBorder_sRzColorRed 65253
-#define RzBorder_sRzColorLightOrange 65254
-#define RzBorder_sRzColorLime 65255
-#define RzBorder_sRzColorSeaGreen 65256
-#define RzBorder_sRzColorAqua 65257
-#define RzBorder_sRzColorLightBlue 65258
-#define RzBorder_sRzColorViolet 65259
-#define RzBorder_sRzColorGray40 65260
-#define RzBorder_sRzColorPink 65261
-#define RzBorder_sRzColorGold 65262
-#define RzBorder_sRzColorYellow 65263
+#define RzBorder_sRzColorHighlight 65200
+#define RzBorder_sRzColorHighlightText 65201
+#define RzBorder_sRzColorBtnFace 65202
+#define RzBorder_sRzColorBtnShadow 65203
+#define RzBorder_sRzColorGrayText 65204
+#define RzBorder_sRzColorBtnText 65205
+#define RzBorder_sRzColorInactiveCaptionText 65206
+#define RzBorder_sRzColorBtnHighlight 65207
+#define RzBorder_sRzColor3DDkShadow 65208
+#define RzBorder_sRzColor3DLight 65209
+#define RzBorder_sRzColorInfoText 65210
+#define RzBorder_sRzColorInfoBk 65211
+#define RzBorder_sRzColorHotLight 65212
+#define RzBorder_sRzColorGradientActiveCaption 65213
+#define RzBorder_sRzColorGradientInactiveCaption 65214
+#define RzBorder_sRzColorMenuHighlight 65215
+#define RzBorder_sRzColorPaleBlue 65216
+#define RzBorder_sRzColorLavender 65217
+#define RzBorder_sRzColorWhite 65218
+#define RzBorder_sRzColorScrollBar 65219
+#define RzBorder_sRzColorBackground 65220
+#define RzBorder_sRzColorActiveCaption 65221
+#define RzBorder_sRzColorInactiveCaption 65222
+#define RzBorder_sRzColorMenu 65223
+#define RzBorder_sRzColorWindow 65224
+#define RzBorder_sRzColorWindowFrame 65225
+#define RzBorder_sRzColorMenuText 65226
+#define RzBorder_sRzColorWindowText 65227
+#define RzBorder_sRzColorCaptionText 65228
+#define RzBorder_sRzColorActiveBorder 65229
+#define RzBorder_sRzColorInactiveBorder 65230
+#define RzBorder_sRzColorAppWorkSpace 65231
+#define RzBorder_sRzColorLightBlue 65232
+#define RzBorder_sRzColorViolet 65233
+#define RzBorder_sRzColorGray40 65234
+#define RzBorder_sRzColorPink 65235
+#define RzBorder_sRzColorGold 65236
+#define RzBorder_sRzColorYellow 65237
+#define RzBorder_sRzColorBrightGreen 65238
+#define RzBorder_sRzColorTurquoise 65239
+#define RzBorder_sRzColorSkyBlue 65240
+#define RzBorder_sRzColorPlum 65241
+#define RzBorder_sRzColorGray25 65242
+#define RzBorder_sRzColorRose 65243
+#define RzBorder_sRzColorTan 65244
+#define RzBorder_sRzColorLightYellow 65245
+#define RzBorder_sRzColorLightGreen 65246
+#define RzBorder_sRzColorLightTurquoise 65247
+#define RzBorder_sRzColorDarkBlue 65248
+#define RzBorder_sRzColorIndigo 65249
+#define RzBorder_sRzColorGray80 65250
+#define RzBorder_sRzColorDarkRed 65251
+#define RzBorder_sRzColorOrange 65252
+#define RzBorder_sRzColorDarkYellow 65253
+#define RzBorder_sRzColorGreen 65254
+#define RzBorder_sRzColorTeal 65255
+#define RzBorder_sRzColorBlue 65256
+#define RzBorder_sRzColorBlueGray 65257
+#define RzBorder_sRzColorGray50 65258
+#define RzBorder_sRzColorRed 65259
+#define RzBorder_sRzColorLightOrange 65260
+#define RzBorder_sRzColorLime 65261
+#define RzBorder_sRzColorSeaGreen 65262
+#define RzBorder_sRzColorAqua 65263
 #define Consts_STaskDlgButtonCaption 65264
 #define Consts_STaskDlgRadioButtonCaption 65265
 #define Consts_SInvalidTaskDlgButtonCaption 65266
 #define Generics_Collections_sArgumentOutOfRange 65267
 #define Generics_Collections_sGenericDuplicateItem 65268
-#define RzBorder_sRzColorBlack 65269
-#define RzBorder_sRzColorBrown 65270
-#define RzBorder_sRzColorOliveGreen 65271
-#define RzBorder_sRzColorDarkGreen 65272
-#define RzBorder_sRzColorDarkTeal 65273
-#define RzBorder_sRzColorDarkBlue 65274
-#define RzBorder_sRzColorIndigo 65275
-#define RzBorder_sRzColorGray80 65276
-#define RzBorder_sRzColorDarkRed 65277
-#define RzBorder_sRzColorOrange 65278
-#define RzBorder_sRzColorDarkYellow 65279
+#define RzTabs_sRzIncorrectNumberOfPoints 65269
+#define RzTabs_sRzTabRegionCapacityError 65270
+#define RzTabs_sRzSavingDCError 65271
+#define RzTabs_sRzCreateRegionError 65272
+#define RzTabs_sRzPageIndexOutOfRange 65273
+#define RzTabs_sRzInvalidVisibilityChange 65274
+#define RzBorder_sRzColorBlack 65275
+#define RzBorder_sRzColorBrown 65276
+#define RzBorder_sRzColorOliveGreen 65277
+#define RzBorder_sRzColorDarkGreen 65278
+#define RzBorder_sRzColorDarkTeal 65279
 #define Consts_SDuplicateMenus 65280
 #define Consts_SDockedCtlNeedsName 65281
 #define Consts_SDockTreeRemoveError 65282
@@ -374,10 +374,10 @@ BEGIN
 	pnglang_EPNGOutMemoryText,	"Some operation could not be performed because the system is out of resources. Close some windows and try again."
 	pnglang_EPNGHeaderNotPresentText,	"This operation is not valid because the current image contains no valid header."
 	pnglang_EInvalidNewSize,	"The new size provided for image resizing is invalid."
-	RzTabs_sRzSavingDCError,	"Error saving device context"
-	RzTabs_sRzCreateRegionError,	"Error creating region"
-	RzTabs_sRzPageIndexOutOfRange,	"%d is an invalid PageIndex value. PageIndex must be between 0 and %d"
-	RzTabs_sRzInvalidVisibilityChange,	"You cannot change the Visible property of a page"
+	RzBorder_sRzColorMenuBar,	"Menu Bar"
+	RzBorder_sRzDefaultColorCaption,	"Default"
+	RzBorder_sRzNoColorCaption,	"None"
+	RzBorder_sRzCustomColorCaption,	"More Colors..."
 	pnglang_EPngInvalidCRCText,	"This \"Portable Network Graphics\" image is not valid because it contains invalid pieces of data (crc error)"
 	pnglang_EPNGInvalidIHDRText,	"The \"Portable Network Graphics\" image could not be loaded because one of its main piece of data (ihdr) might be corrupted"
 	pnglang_EPNGMissingMultipleIDATText,	"This \"Portable Network Graphics\" image is invalid because it has missing image parts."
@@ -390,6 +390,12 @@ BEGIN
 	pnglang_EPNGUnknownCriticalChunkText,	"This \"Portable Network Graphics\" image contains an unknown critical part which could not be decoded."
 	pnglang_EPNGUnknownCompressionText,	"This \"Portable Network Graphics\" image is encoded with an unknown compression scheme which could not be decoded."
 	pnglang_EPNGUnknownInterlaceText,	"This \"Portable Network Graphics\" image uses an unknown interlace scheme which could not be decoded."
+	RzBorder_sRzColorHighlight,	"Highlight"
+	RzBorder_sRzColorHighlightText,	"Highlight Text"
+	RzBorder_sRzColorBtnFace,	"Button Face"
+	RzBorder_sRzColorBtnShadow,	"Button Shadow"
+	RzBorder_sRzColorGrayText,	"Gray Text"
+	RzBorder_sRzColorBtnText,	"Button Text"
 	RzBorder_sRzColorInactiveCaptionText,	"Inactive Caption Text"
 	RzBorder_sRzColorBtnHighlight,	"Button Highlight"
 	RzBorder_sRzColor3DDkShadow,	"3D Dark Shadow"
@@ -400,12 +406,12 @@ BEGIN
 	RzBorder_sRzColorGradientActiveCaption,	"Gradient Active Caption"
 	RzBorder_sRzColorGradientInactiveCaption,	"Gradient Inactive Caption"
 	RzBorder_sRzColorMenuHighlight,	"Menu Highlight"
-	RzBorder_sRzColorMenuBar,	"Menu Bar"
-	RzBorder_sRzDefaultColorCaption,	"Default"
-	RzBorder_sRzNoColorCaption,	"None"
-	RzBorder_sRzCustomColorCaption,	"More Colors..."
-	RzTabs_sRzIncorrectNumberOfPoints,	"Incorrect number of points in tab shape"
-	RzTabs_sRzTabRegionCapacityError,	"Capacity must be -1 (to cache all regions) or > 0"
+	RzBorder_sRzColorPaleBlue,	"Pale Blue"
+	RzBorder_sRzColorLavender,	"Lavender"
+	RzBorder_sRzColorWhite,	"White"
+	RzBorder_sRzColorScrollBar,	"Scroll Bar"
+	RzBorder_sRzColorBackground,	"Background"
+	RzBorder_sRzColorActiveCaption,	"Active Caption"
 	RzBorder_sRzColorInactiveCaption,	"Inactive Caption"
 	RzBorder_sRzColorMenu,	"Menu"
 	RzBorder_sRzColorWindow,	"Window"
@@ -416,12 +422,12 @@ BEGIN
 	RzBorder_sRzColorActiveBorder,	"Active Border"
 	RzBorder_sRzColorInactiveBorder,	"Inactive Border"
 	RzBorder_sRzColorAppWorkSpace,	"App WorkSpace"
-	RzBorder_sRzColorHighlight,	"Highlight"
-	RzBorder_sRzColorHighlightText,	"Highlight Text"
-	RzBorder_sRzColorBtnFace,	"Button Face"
-	RzBorder_sRzColorBtnShadow,	"Button Shadow"
-	RzBorder_sRzColorGrayText,	"Gray Text"
-	RzBorder_sRzColorBtnText,	"Button Text"
+	RzBorder_sRzColorLightBlue,	"Light Blue"
+	RzBorder_sRzColorViolet,	"Violet"
+	RzBorder_sRzColorGray40,	"Gray 40%"
+	RzBorder_sRzColorPink,	"Pink"
+	RzBorder_sRzColorGold,	"Gold"
+	RzBorder_sRzColorYellow,	"Yellow"
 	RzBorder_sRzColorBrightGreen,	"Bright Green"
 	RzBorder_sRzColorTurquoise,	"Turquoise"
 	RzBorder_sRzColorSkyBlue,	"Sky Blue"
@@ -432,12 +438,12 @@ BEGIN
 	RzBorder_sRzColorLightYellow,	"Light Yellow"
 	RzBorder_sRzColorLightGreen,	"Light Green"
 	RzBorder_sRzColorLightTurquoise,	"Light Turquoise"
-	RzBorder_sRzColorPaleBlue,	"Pale Blue"
-	RzBorder_sRzColorLavender,	"Lavender"
-	RzBorder_sRzColorWhite,	"White"
-	RzBorder_sRzColorScrollBar,	"Scroll Bar"
-	RzBorder_sRzColorBackground,	"Background"
-	RzBorder_sRzColorActiveCaption,	"Active Caption"
+	RzBorder_sRzColorDarkBlue,	"Dark Blue"
+	RzBorder_sRzColorIndigo,	"Indigo"
+	RzBorder_sRzColorGray80,	"Gray 80%"
+	RzBorder_sRzColorDarkRed,	"Dark Red"
+	RzBorder_sRzColorOrange,	"Orange"
+	RzBorder_sRzColorDarkYellow,	"Dark Yellow"
 	RzBorder_sRzColorGreen,	"Green"
 	RzBorder_sRzColorTeal,	"Teal"
 	RzBorder_sRzColorBlue,	"Blue"
@@ -448,28 +454,22 @@ BEGIN
 	RzBorder_sRzColorLime,	"Lime"
 	RzBorder_sRzColorSeaGreen,	"Sea Green"
 	RzBorder_sRzColorAqua,	"Aqua"
-	RzBorder_sRzColorLightBlue,	"Light Blue"
-	RzBorder_sRzColorViolet,	"Violet"
-	RzBorder_sRzColorGray40,	"Gray 40%"
-	RzBorder_sRzColorPink,	"Pink"
-	RzBorder_sRzColorGold,	"Gold"
-	RzBorder_sRzColorYellow,	"Yellow"
 	Consts_STaskDlgButtonCaption,	"Button%d"
 	Consts_STaskDlgRadioButtonCaption,	"RadioButton%d"
 	Consts_SInvalidTaskDlgButtonCaption,	"Caption cannot be empty"
 	Generics_Collections_sArgumentOutOfRange,	"Argument out of range"
 	Generics_Collections_sGenericDuplicateItem,	"Duplicates not allowed"
+	RzTabs_sRzIncorrectNumberOfPoints,	"Incorrect number of points in tab shape"
+	RzTabs_sRzTabRegionCapacityError,	"Capacity must be -1 (to cache all regions) or > 0"
+	RzTabs_sRzSavingDCError,	"Error saving device context"
+	RzTabs_sRzCreateRegionError,	"Error creating region"
+	RzTabs_sRzPageIndexOutOfRange,	"%d is an invalid PageIndex value. PageIndex must be between 0 and %d"
+	RzTabs_sRzInvalidVisibilityChange,	"You cannot change the Visible property of a page"
 	RzBorder_sRzColorBlack,	"Black"
 	RzBorder_sRzColorBrown,	"Brown"
 	RzBorder_sRzColorOliveGreen,	"Olive Green"
 	RzBorder_sRzColorDarkGreen,	"Dark Green"
 	RzBorder_sRzColorDarkTeal,	"Dark Teal"
-	RzBorder_sRzColorDarkBlue,	"Dark Blue"
-	RzBorder_sRzColorIndigo,	"Indigo"
-	RzBorder_sRzColorGray80,	"Gray 80%"
-	RzBorder_sRzColorDarkRed,	"Dark Red"
-	RzBorder_sRzColorOrange,	"Orange"
-	RzBorder_sRzColorDarkYellow,	"Dark Yellow"
 	Consts_SDuplicateMenus,	"Menu '%s' is already being used by another form"
 	Consts_SDockedCtlNeedsName,	"Docked control must have a name"
 	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
@@ -731,16 +731,16 @@ END
 /* p:\codegear\rad studio\6.0\lib\character.res */
 /* p:\codegear\rad studio\6.0\lib\Controls.res */
 /* E:\Program Files\Raize\RC5\Lib\RS2009\RzCmboBx.res */
+/* E:\Program Files\Raize\RC5\Lib\RS2009\RzTrkBar.res */
 /* p:\codegear\rad studio\6.0\lib\Buttons.res */
 /* E:\Program Files\Raize\RC5\Lib\RS2009\RzCommonBitmaps.res */
 /* p:\codegear\rad studio\6.0\lib\ExtDlgs.res */
 /* E:\Program Files\Raize\RC5\Lib\RS2009\RzCommonCursors.res */
 /* E:\Program Files\Raize\RC5\Lib\RS2009\RzToolbarForm.dfm */
-/* E:\Program Files\Raize\RC5\Lib\RS2009\RzTrkBar.res */
 /* E:\Program Files\Raize\RC5\Lib\RS2009\RzSplit.res */
-/* Attributes.dfm */
-/* NewMap.dfm */
-/* BlockList.dfm */
-/* Main.dfm */
-/* G:\minecraft-server\Custom\NBT\Editor\Editor.res */
-/* G:\minecraft-server\Custom\NBT\Editor\Editor.drf */
+/* G:\NBT-Forge\BlockList.dfm */
+/* G:\NBT-Forge\NewMap.dfm */
+/* G:\NBT-Forge\Attributes.dfm */
+/* G:\NBT-Forge\Main.dfm */
+/* G:\NBT-Forge\Editor.res */
+/* G:\NBT-Forge\Editor.drf */
