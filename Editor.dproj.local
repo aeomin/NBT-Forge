@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010-01-24 11:47:44.000.pas,E:\Documents and Settings\Minerva\My Documents\RAD Studio\Projects\Unit1.pas=G:\minecraft-server\Custom\NBT\Editor\Main.pas</Transaction>
+    <Transaction>2010-01-24 11:47:44.000.dfm,E:\Documents and Settings\Minerva\My Documents\RAD Studio\Projects\Unit1.dfm=G:\minecraft-server\Custom\NBT\Editor\Main.dfm</Transaction>
+    <Transaction>2010-01-24 11:47:48.671.dproj,E:\Documents and Settings\Minerva\My Documents\RAD Studio\Projects\Project1.dproj=G:\minecraft-server\Custom\NBT\Editor\Editor.dproj</Transaction>
+    <Transaction>2010-01-24 20:39:16.151.pas,G:\minecraft-server\Custom\NBT\Editor\Unit1.pas=G:\minecraft-server\Custom\NBT\Editor\BlockList.pas</Transaction>
+    <Transaction>2010-01-24 20:39:16.166.dfm,G:\minecraft-server\Custom\NBT\Editor\Unit1.dfm=G:\minecraft-server\Custom\NBT\Editor\BlockList.dfm</Transaction>
+    <Transaction>2010-01-25 18:05:46.715.pas,G:\minecraft-server\Custom\NBT\Editor\Unit1.pas=G:\minecraft-server\Custom\NBT\Editor\NewMap.pas</Transaction>
+    <Transaction>2010-01-25 18:05:46.731.dfm,G:\minecraft-server\Custom\NBT\Editor\Unit1.dfm=G:\minecraft-server\Custom\NBT\Editor\NewMap.dfm</Transaction>
+    <Transaction>2010-02-14 19:11:14.636.pas,G:\minecraft-server\Custom\NBT\Editor\Unit1.pas=G:\minecraft-server\Custom\NBT\Editor\Attributes.pas</Transaction>
+    <Transaction>2010-02-14 19:11:14.636.dfm,G:\minecraft-server\Custom\NBT\Editor\Unit1.dfm=G:\minecraft-server\Custom\NBT\Editor\Attributes.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
