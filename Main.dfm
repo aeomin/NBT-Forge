@@ -518,10 +518,6 @@ object MainFrm: TMainFrm
         Caption = 'Official Forum Post'
         OnClick = mOfficialPostClick
       end
-      object mDonate: TMenuItem
-        Caption = 'Donation'
-        OnClick = mDonateClick
-      end
       object About1: TMenuItem
         Caption = 'About'
       end

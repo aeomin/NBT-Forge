@@ -67,7 +67,6 @@ type
     mCopyDown: TMenuItem;
     MapAttributions1: TMenuItem;
     N5: TMenuItem;
-    mDonate: TMenuItem;
     BlockCount1: TMenuItem;
     procedure mExitClick(Sender: TObject);
     procedure Open1Click(Sender: TObject);
@@ -108,7 +107,6 @@ type
     procedure mCopyUpClick(Sender: TObject);
     procedure mCopyDownClick(Sender: TObject);
     procedure MapAttributions1Click(Sender: TObject);
-    procedure mDonateClick(Sender: TObject);
     procedure mOfficialPostClick(Sender: TObject);
 	private
 		procedure WMMove(var Message: TMessage); message WM_MOVE;
@@ -374,11 +372,6 @@ begin
 		TransactionLog.Add(ATransaction)
 	else
 		ATransaction.Free;
-end;
-
-procedure TMainFrm.mDonateClick(Sender: TObject);
-begin
-	ShellExecute(Handle,'open','https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZGMQ4LB3MUS',nil,nil,SW_SHOW);
 end;
 
 procedure TMainFrm.mExitClick(Sender: TObject);
